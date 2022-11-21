@@ -1,0 +1,64 @@
+[09-Nov-2022 10:17:56 UTC] PHP Parse error:  syntax error, unexpected '';.php'' (T_CONSTANT_ENCAPSED_STRING) in C:\OpenServer\domains\uokik\wp-content\themes\uokik\functions.php on line 258
+[09-Nov-2022 10:17:56 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[10-Nov-2022 08:01:38 UTC] PHP Warning:  require(C:\OpenServer\domains\uokik/wp-content/themes/uokik/inc/info-tabs.php): failed to open stream: No such file or directory in C:\OpenServer\domains\uokik\wp-content\themes\uokik\functions.php on line 257
+[10-Nov-2022 08:01:38 UTC] PHP Fatal error:  require(): Failed opening required 'C:\OpenServer\domains\uokik/wp-content/themes/uokik/inc/info-tabs.php' (include_path='.') in C:\OpenServer\domains\uokik\wp-content\themes\uokik\functions.php on line 257
+[10-Nov-2022 08:01:38 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\OpenServer\domains\uokik\wp-includes\class-wp-recovery-mode-email-service.php on line 372
+[10-Nov-2022 08:01:38 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\OpenServer\domains\uokik\wp-includes\class-wp-recovery-mode-email-service.php on line 373
+[10-Nov-2022 08:01:38 UTC] PHP Notice:  Undefined index: file in C:\OpenServer\domains\uokik\wp-content\plugins\query-monitor\dispatchers\WP_Die.php on line 60
+[10-Nov-2022 08:01:38 UTC] PHP Notice:  Undefined index: line in C:\OpenServer\domains\uokik\wp-content\plugins\query-monitor\dispatchers\WP_Die.php on line 60
+[10-Nov-2022 08:01:52 UTC] PHP Warning:  require(C:\OpenServer\domains\uokik/wp-content/themes/uokik/inc/info-tabs.php): failed to open stream: No such file or directory in C:\OpenServer\domains\uokik\wp-content\themes\uokik\functions.php on line 257
+[10-Nov-2022 08:01:52 UTC] PHP Fatal error:  require(): Failed opening required 'C:\OpenServer\domains\uokik/wp-content/themes/uokik/inc/info-tabs.php' (include_path='.') in C:\OpenServer\domains\uokik\wp-content\themes\uokik\functions.php on line 257
+[14-Nov-2022 10:25:15 UTC] PHP Notice:  Undefined index: width in C:\OpenServer\domains\uokik\wp-admin\includes\image.php on line 108
+[14-Nov-2022 10:25:15 UTC] PHP Notice:  Undefined index: height in C:\OpenServer\domains\uokik\wp-admin\includes\image.php on line 109
+[14-Nov-2022 10:26:05 UTC] PHP Notice:  Undefined index: width in C:\OpenServer\domains\uokik\wp-admin\includes\image.php on line 108
+[14-Nov-2022 10:26:05 UTC] PHP Notice:  Undefined index: height in C:\OpenServer\domains\uokik\wp-admin\includes\image.php on line 109
+[16-Nov-2022 10:06:46 UTC] PHP Notice:  Undefined variable: sidebar in C:\OpenServer\domains\uokik\wp-content\themes\uokik\template-parts\content-page.php on line 30
+[16-Nov-2022 10:07:02 UTC] PHP Notice:  Undefined variable: sidebar in C:\OpenServer\domains\uokik\wp-content\themes\uokik\template-parts\content-page.php on line 30
+[16-Nov-2022 10:34:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\OpenServer\domains\uokik\wp-content\themes\uokik\template-parts\content-document-template.php on line 16
+[16-Nov-2022 10:34:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\OpenServer\domains\uokik\wp-content\themes\uokik\template-parts\content-document-template.php on line 16
+[16-Nov-2022 10:34:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\OpenServer\domains\uokik\wp-content\themes\uokik\template-parts\content-document-template.php on line 16
+[16-Nov-2022 10:34:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\OpenServer\domains\uokik\wp-content\themes\uokik\template-parts\content-document-template.php on line 16
+[16-Nov-2022 14:01:59 UTC] PHP Notice:  Undefined variable: tab in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:01:59 UTC] PHP Notice:  Trying to get property 'post_title' of non-object in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:01:59 UTC] PHP Notice:  Undefined variable: tab in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:01:59 UTC] PHP Notice:  Trying to get property 'post_title' of non-object in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:01:59 UTC] PHP Notice:  Undefined variable: tab in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:01:59 UTC] PHP Notice:  Trying to get property 'post_title' of non-object in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:01:59 UTC] PHP Notice:  Undefined variable: tab in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:01:59 UTC] PHP Notice:  Trying to get property 'post_title' of non-object in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:01:59 UTC] PHP Notice:  Undefined variable: tab in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:01:59 UTC] PHP Notice:  Trying to get property 'post_title' of non-object in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:01:59 UTC] PHP Notice:  Undefined variable: tab in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:01:59 UTC] PHP Notice:  Trying to get property 'post_title' of non-object in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:02:02 UTC] PHP Notice:  Undefined variable: tab in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:02:02 UTC] PHP Notice:  Trying to get property 'post_title' of non-object in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:02:02 UTC] PHP Notice:  Undefined variable: tab in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:02:02 UTC] PHP Notice:  Trying to get property 'post_title' of non-object in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:02:02 UTC] PHP Notice:  Undefined variable: tab in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:02:02 UTC] PHP Notice:  Trying to get property 'post_title' of non-object in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:02:02 UTC] PHP Notice:  Undefined variable: tab in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:02:02 UTC] PHP Notice:  Trying to get property 'post_title' of non-object in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:02:02 UTC] PHP Notice:  Undefined variable: tab in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:02:02 UTC] PHP Notice:  Trying to get property 'post_title' of non-object in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:02:02 UTC] PHP Notice:  Undefined variable: tab in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:02:02 UTC] PHP Notice:  Trying to get property 'post_title' of non-object in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 23
+[16-Nov-2022 14:48:17 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php:31
+Stack trace:
+#0 C:\OpenServer\domains\uokik\wp-content\themes\uokik\inc\acf-settings.php(59): include()
+#1 C:\OpenServer\domains\uokik\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(641): my_acf_block_render_callback()
+#2 C:\OpenServer\domains\uokik\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(568): acf_render_block()
+#3 C:\OpenServer\domains\uokik\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(501): acf_rendered_block()
+#4 C:\OpenServer\domains\uokik\wp-includes\class-wp-block.php(256): acf_render_block_callback()
+#5 C:\OpenServer\domains\uokik\wp-includes\blocks.php(1051): WP_Block->render()
+#6 C:\OpenServer\domains\uokik\wp-includes\blocks.php(1089): render_block()
+#7 C:\OpenServer\domains\uokik\wp-includes\class-wp-hook.php(308): do_blocks()
+#8 C:\OpenServer\domains\uokik\wp-includes\plugin.php(205): WP_H in C:\OpenServer\domains\uokik\wp-content\themes\uokik\gutenberg-blocks\content-document-list.php on line 31
+[17-Nov-2022 10:06:59 UTC] [Loco.debug] "Wrote backup: pl_PL.po -> pl_PL-backup-202211171006590.po~" in src/gettext/Compiler.php:81
+[17-Nov-2022 10:09:30 UTC] [Loco.debug] "Wrote backup: uokik.pot -> uokik-backup-202211171009300.pot~" in src/gettext/Compiler.php:81
+[17-Nov-2022 10:10:16 UTC] [Loco.debug] "Wrote backup: pl_PL.po -> pl_PL-backup-202211171010160.po~" in src/gettext/Compiler.php:81
+[17-Nov-2022 10:10:52 UTC] [Loco.debug] "Wrote backup: pl_PL.po -> pl_PL-backup-202211171010520.po~" in src/gettext/Compiler.php:81
+[17-Nov-2022 10:11:35 UTC] [Loco.debug] "Wrote backup: pl_PL.po -> pl_PL-backup-202211171011350.po~" in src/gettext/Compiler.php:81
+[17-Nov-2022 12:58:23 UTC] [Loco.debug] "Wrote backup: pl_PL.po -> pl_PL-backup-202211171258230.po~" in src/gettext/Compiler.php:81
+[17-Nov-2022 12:58:30 UTC] [Loco.debug] "Wrote backup: pl_PL.po -> pl_PL-backup-202211171258300.po~" in src/gettext/Compiler.php:81
+[17-Nov-2022 12:59:50 UTC] [Loco.debug] "Wrote backup: pl_PL.po -> pl_PL-backup-202211171259500.po~" in src/gettext/Compiler.php:81
+[17-Nov-2022 13:00:43 UTC] [Loco.debug] "Wrote backup: pl_PL.po -> pl_PL-backup-202211171300430.po~" in src/gettext/Compiler.php:81
