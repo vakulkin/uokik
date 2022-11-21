@@ -1,0 +1,393 @@
+# Copyright (C) 2020 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/_s\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-17 10:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: _s\n"
+"\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+
+#: inc/template-functions.php:159 inc/template-functions.php:161
+#: inc/template-functions.php:163
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: footer.php:62
+#, php-format
+msgid "%s %s. All rights reserved."
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ""
+
+#: inc/acf-settings.php:42
+#, php-format
+msgid "A custom %s block."
+msgstr ""
+
+#: inc/document-templates.php:29 inc/html-blocks.php:25
+msgid "Add New"
+msgstr ""
+
+#: inc/document-templates.php:30
+msgid "Add New Document template"
+msgstr ""
+
+#: inc/html-blocks.php:26
+msgid "Add New HTML block"
+msgstr ""
+
+#: functions.php:152
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/template-functions.php:130
+msgid "All"
+msgstr ""
+
+#: gutenberg-blocks/content-document-templates.php:48
+msgid "Archive document templates"
+msgstr ""
+
+#: inc/template-functions.php:165
+msgid "Blog Archives"
+msgstr ""
+
+#: inc/acf-settings.php:31
+msgid "Collapsed menu"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:40
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Description of the theme
+msgid "Description"
+msgstr ""
+
+#: inc/template-functions.php:89 inc/template-functions.php:100
+msgid "displayed results."
+msgstr ""
+
+#: inc/acf-settings.php:34
+msgid "Document list"
+msgstr ""
+
+#: inc/acf-settings.php:28 inc/document-templates.php:27
+#: inc/document-templates.php:28
+msgid "Document templates"
+msgstr ""
+
+#: inc/document-templates.php:38 inc/template-functions.php:135
+msgid "Documents"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:100
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/document-templates.php:31
+msgid "Edit Document template"
+msgstr ""
+
+#: inc/html-blocks.php:27
+msgid "Edit HTML block"
+msgstr ""
+
+#: inc/template-functions.php:74
+msgid "Enter a keyword"
+msgstr ""
+
+#: functions.php:55
+msgid "Footer"
+msgstr ""
+
+#: footer.php:49
+msgid "Go to top"
+msgstr ""
+
+#: functions.php:54
+msgid "Header"
+msgstr ""
+
+#: inc/template-functions.php:152
+msgid "Homepage"
+msgstr ""
+
+#: inc/html-blocks.php:23 inc/html-blocks.php:24 inc/html-blocks.php:34
+msgid "HTML blocks"
+msgstr ""
+
+#. URI of the theme
+msgid "http://underscores.me/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://thenewlook.pl/"
+msgstr ""
+
+#: inc/acf-settings.php:30
+msgid "Icon navigation"
+msgstr ""
+
+#: inc/acf-settings.php:27
+msgid "Image link banner"
+msgstr ""
+
+#: inc/acf-settings.php:32
+msgid "Info box"
+msgstr ""
+
+#: inc/acf-settings.php:33
+msgid "Info tabs"
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:83
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/template-functions.php:161
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: 404.php:30
+msgid "Most Used Categories"
+msgstr ""
+
+#: inc/document-templates.php:32
+msgid "New Document template"
+msgstr ""
+
+#: inc/html-blocks.php:28
+msgid "New HTML block"
+msgstr ""
+
+#: inc/pagination.php:69
+msgid "Next"
+msgstr ""
+
+#: inc/document-templates.php:35
+msgid "No Document template found"
+msgstr ""
+
+#: inc/document-templates.php:36
+msgid "No Document templates found in Trash"
+msgstr ""
+
+#: inc/html-blocks.php:31
+msgid "No HTML block found"
+msgstr ""
+
+#: inc/html-blocks.php:32
+msgid "No HTML blocks found in Trash"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/template-functions.php:100
+msgid "of"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: template-parts/content-page-sidebar.php:28
+#: template-parts/content-page.php:23 template-parts/content.php:53
+msgid "Pages:"
+msgstr ""
+
+#: inc/document-templates.php:37
+msgid "Parent Document template:"
+msgstr ""
+
+#: inc/html-blocks.php:33
+msgid "Parent HTML block:"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:46
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:30
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:66
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/pagination.php:24
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/pagination.php:45
+msgid "Previous"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/document-templates.php:34
+msgid "Search Document templates"
+msgstr ""
+
+#: inc/template-functions.php:134
+msgid "Search documents results"
+msgstr ""
+
+#: inc/html-blocks.php:30
+msgid "Search HTML blocks"
+msgstr ""
+
+#: inc/template-functions.php:196
+msgid "Search result"
+msgstr ""
+
+#: search.php:28
+msgid "Search Results"
+msgstr ""
+
+#: inc/template-functions.php:129
+msgid "Search results"
+msgstr ""
+
+#: header.php:29
+msgid "Skip to content"
+msgstr ""
+
+#: inc/acf-settings.php:25
+msgid "Slider"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:73
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/acf-settings.php:29
+msgid "Text banner with button"
+msgstr ""
+
+#: inc/acf-settings.php:81
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/acf-settings.php:80
+msgid "Theme settings"
+msgstr ""
+
+#. Author of the theme
+msgid "Thenewlook"
+msgstr ""
+
+#: inc/acf-settings.php:26
+msgid "Title section"
+msgstr ""
+
+#: header.php:44
+msgid "Toggle navigation"
+msgstr ""
+
+#: gutenberg-blocks/content-slider.php:68
+msgid "Toggle slider navigation"
+msgstr ""
+
+#. %1$s: smiley
+#: 404.php:48
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#. Name of the theme
+msgid "uokik"
+msgstr ""
+
+#: functions.php:206
+msgid "Upload a footer logo"
+msgstr ""
+
+#: gutenberg-blocks/content-document-templates.php:49
+msgid "View all document templates"
+msgstr ""
+
+#: inc/document-templates.php:33
+msgid "View Document template"
+msgstr ""
+
+#: inc/html-blocks.php:29
+msgid "View HTML block"
+msgstr ""
+
+#: inc/template-functions.php:163
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""

@@ -1,0 +1,49 @@
+.headerTop{
+    text-align: center;
+
+
+    &--skip{
+        display: inline-block;
+        &.btn{
+            padding: 8px 40px;
+        }
+    }
+
+    @include media-breakpoint-down(lg){
+        display: none;
+    }
+
+}
+
+.site-header{
+    position: sticky;
+    padding: 20px 0 0;
+    top: 0;
+    background-color: $white;
+    z-index: 9999;
+    transition: $transition;
+
+    @include media-breakpoint-down(lg){
+        margin-bottom: 10px;
+        padding: 20px 0;
+        border-bottom: 1px solid $primary;
+    }
+
+}
+
+.admin-bar{
+    .site-header{
+        top: 32px;
+    }
+}
+
+.scrollDown{
+    box-shadow: $box-shadow-light;
+}
+
+.site-branding{
+    .custom-logo{
+        max-height: 50px;
+    }
+}
+

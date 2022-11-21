@@ -1,0 +1,104 @@
+@import "slider";
+@import "titleSection";
+@import "imageLinkBanner";
+@import "carouselDocumentTemplates";
+@import "TextBannerButton";
+@import "iconNavigation";
+@import "collapsedMenu";
+@import "quote";
+@import "infoBlock";
+@import "infoTabs";
+@import "_documentList";
+
+
+.uokik-iframe {
+    .uokik-wg-container{
+        width: 100%!important;
+        height: auto!important;
+        background: none;
+        border: none;
+    }
+    
+    .uokik-wg-logo,
+    .uokik-wg-type-vertical .uokik-wg-info{
+        display: none;
+    }
+    
+    .uokik-wg-form{
+        margin: 0;
+        padding: 0
+    }
+    
+    .uokik-wg-type-vertical .uokik-wg-form select{
+        width: 100%;
+        display: block;
+        margin: 0 0 15px;
+        padding: 0 15px;
+        height: 50px;
+        border: 2px solid $theme-yellow;
+        border-radius: 5px;
+        background-color: $white;
+    }
+    
+    .uokik-wg-form-item-1 b, 
+    .uokik-wg-form-item-2 b, 
+    .uokik-wg-form-item-3 b{
+        display: none;
+    }
+    
+    .uokik-wg-type-vertical .uokik-wg-bottom a{
+        display: none;
+    }
+    
+    .uokik-wg-type-vertical .uokik-wg-form-item-1, .uokik-wg-type-vertical .uokik-wg-form-item-2, .uokik-wg-type-vertical .uokik-wg-form-item-3 {
+        height: auto;
+    }
+    
+    .uokik-wg-bottom{
+        padding: 0;
+    
+        input{
+            display: block;
+            background: $primary;
+            padding: 15px;
+            float: none;
+            width: 100%;
+            height: auto;
+            font-weight: $font-weight-bold;
+            font-size: $font-size-normal;
+            font-family: $font__main;
+        }
+    }
+}
+
+
+
+.infoBox{
+    padding: 30px;
+
+    &.pad-y-0{
+        padding: 0 30px;
+    }
+
+    h4{
+        margin: 0 0 20px;
+    }
+
+
+
+    @include media-breakpoint-down(lg){
+        padding: 20px 15px;
+
+        p{
+            margin: 10px 0;
+        }
+    }
+}
+
+.infoBoxShadow{
+	box-shadow: $box-shadow-light;
+}
+
+.wp-block-separator{
+    height: 0;
+}

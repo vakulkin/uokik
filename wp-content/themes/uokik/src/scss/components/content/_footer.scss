@@ -1,0 +1,100 @@
+.site-footer{
+    padding: 20px 0;
+    background-color: $primary;
+    color: $white;
+
+    .scrollToTop{
+        color: $white;
+        display: inline-flex;
+        align-items: center;
+        justify-content: flex-end;
+        text-decoration: none;
+        font-weight: $font-weight-bold;
+
+        &::after{
+            content: '';
+            margin: 0 0 0 15px;
+            position: relative;
+            width: 30px;
+            height: 30px;
+            background-size: 30px;
+            background-image: url("~/assets/img/arrow-white-up.svg");
+        }
+    }
+
+    .site-branding-footer{
+        margin-right: 30px;
+
+        img{
+            max-height: 45px;
+            height: 100%;
+        }
+    }    
+
+    #footer-menu{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+        align-items: center;
+        list-style: none;
+
+        .menu-item{
+            text-align: center;
+            font-size: 14px;
+
+            @include media-breakpoint-up(lg){
+                &:not(:last-child){
+                    margin-right: 20px;
+                }
+            }
+            
+            a{
+                color: $white;
+                transition: $transition;
+                text-decoration: none;
+                opacity: .7;
+
+                &:hover{
+                    opacity: 1;
+                }
+            }
+
+        }
+    }
+
+    @include media-breakpoint-down(lg){
+        padding: 6vh 0;
+
+        .site-info{
+            text-align: center;
+            flex-wrap: wrap;
+        }
+
+        .site-branding-footer{
+            margin: 0;
+            width: 100%;
+        }
+
+        #footer-menu{
+            margin: 4vh 0;
+            flex-wrap: wrap;
+            li{
+                margin: 3px 0;
+                width: 100%;
+            }
+        }
+
+    }
+}
+
+
+.copyrights{
+    padding: 6px 0;
+    background-color: #CAD1D8;
+
+    @include media-breakpoint-down(lg){
+        font-size: $font-size-small;
+        text-align: center;
+    }
+}

@@ -1,0 +1,69 @@
+.collapsedMenu{
+    padding: 24px;
+    background-color: $light-gray;
+
+    &__area{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            position: relative;
+            transition: $transition;
+
+            &:hover{
+                color: $secondary;
+            }
+
+        }
+
+        > li {
+            > a{
+                display: block;
+                padding: 5px 40px 5px 0;
+                font-weight: $font-weight-bold;
+                font-size: $font-size-medium;
+            }
+        }
+
+        .sub-menu{
+            display: none;
+            margin: 0;
+            padding: 3px 0;
+            list-style: none;
+            
+            li{
+                a{
+                    padding: 3px 0;
+                    display: inline-block;
+                }
+            }
+        }
+
+        .current-menu-ancestor.menu-item > ul.sub-menu{
+            display: block;
+        }
+
+        .submenu--toggle > a::after {
+            content: '';
+            width: 30px;
+            height: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0;
+            background: url("~/assets/img/plus.svg") no-repeat center;
+            display: block;
+            position: absolute;
+            background-size: 14px;
+            transition: $transition;
+        }
+        
+        .submenu--toggle > a.active::after{
+            background-size: 12px;
+            background: url("~/assets/img/minus.svg") no-repeat center;
+        }
+
+    }
+
+}

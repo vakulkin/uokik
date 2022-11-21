@@ -1,0 +1,39 @@
+.textBannerButton{
+    &__item{
+        padding: 40px;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+
+        &--title{
+            margin: 0;
+            font-size: $font-size-medium-title;
+        }
+
+        &--text,
+        &--button{
+            margin: 30px 0 0;
+        }
+
+        &--text{
+            font-size: $font-size-medium;
+        }
+
+        &.textLight{
+            color: $white;
+            a:not(.btn){
+                color: $white;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(lg){
+        &__item{
+            padding: 20px 15px;
+        }
+
+        &__column{
+            margin: 0 0 3vh;
+        }
+    }
+}

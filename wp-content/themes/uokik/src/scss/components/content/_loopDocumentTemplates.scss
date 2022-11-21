@@ -1,0 +1,40 @@
+.documentTemplates,
+.tabsContent {
+
+    .splide__arrow{
+        transition: $transition;
+        background-color: $gray;
+		background-size: 28px;
+		background-position: center;
+		background-repeat: no-repeat;
+		opacity: 1;
+
+		&.splide__arrow--next{
+			background-image: url("~/assets/img/arrow-right.svg");
+		}
+
+		&.splide__arrow--prev{
+			background-image: url("~/assets/img/arrow-left.svg");
+		}
+
+        &:disabled{
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        svg{
+            display: none;
+        }
+    }
+}
+
+
+.documentTemplates {
+    .splide__track{
+        padding-bottom: 20px;
+
+        .splide__slide:not(.is-visible){
+            opacity: .3;
+        } 
+    }
+}

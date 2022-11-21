@@ -1,0 +1,51 @@
+.imageLinkBanner{
+    position: relative;
+
+    &__item{
+
+        margin: 0 0 3vh 0;
+
+        a{
+            text-decoration: none;
+        }
+
+        &--img{
+            transition: $transition;
+            
+            &:hover{
+                opacity: .8;
+            }
+
+            img{
+                display: block;
+                width: 100%;
+            }
+
+
+        }
+
+        &--title{
+            margin: 0;
+            padding: 15px 30px;
+            text-align: center;
+            font-size: $font-size-small-title;
+            background-color: $primary;
+            color: $white;
+        }
+
+    }
+
+    &.secondary &__item{
+        &--title{
+            background-color: $secondary;
+        }    
+    }
+
+    &.gray &__item{
+        &--title{
+            background-color: $gray;
+            color: $black;
+        }    
+    }
+    
+}

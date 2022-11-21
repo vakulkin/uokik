@@ -1,0 +1,34 @@
+.sticky {
+	display: block;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+@include media-breakpoint-up(lg){
+	.page-content,
+	.entry-content,
+	.entry-summary {
+		margin: 1.5em 0 2.5em;
+	}
+	
+	.titleSection--title.pageTitle{
+		margin-bottom: 0;
+	}
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+@import 'searchPage';
+
+
+@include media-breakpoint-down(lg){
+	.contentSidebar{
+		max-width: 720px;
+	}
+}
+

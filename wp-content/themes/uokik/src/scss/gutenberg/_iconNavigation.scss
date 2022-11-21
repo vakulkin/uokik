@@ -1,0 +1,36 @@
+.iconNavigation{
+    .flex-12{
+        margin: 0 0 6vh;
+    }
+    &__item{
+        display: flex;
+        padding: 60px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        box-shadow: $box-shadow;
+        background-color: $white;
+        transition: $transition;
+        text-decoration: none;
+        
+        &:hover{
+            background-color: $dark-gray;
+            box-shadow: $box-shadow-light;
+        }
+        
+        &--title{
+            margin: 30px 0 0;
+            width: 100%;
+            font-size: $font-size-title-loop;
+            text-align: center;
+        }
+
+        &--icon{
+            img{
+                width: 60px;
+            }
+        }
+
+    }
+}

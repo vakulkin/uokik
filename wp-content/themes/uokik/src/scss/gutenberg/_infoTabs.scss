@@ -1,0 +1,73 @@
+.tabsContent {
+  padding-bottom: 40px;
+  &__tab {
+    &_button {
+      position: relative;
+      display: none;
+      padding: 0.8em 1em;
+      margin-bottom: .5em;
+      width: 100%;
+      text-align: left;
+      border: 1px solid #001A72!important;
+      font-weight: 600;
+      border-radius: 3px;
+      background: #fff;
+      cursor: pointer;
+      
+      &::before {
+        content: "";
+        width: 30px;
+        height: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        background: url(../../assets/img/plus.svg) no-repeat center;
+        background-size: auto;
+        display: block;
+        position: absolute;
+        background-size: 14px;
+        transition: 0.3s ease-in-out;
+      }
+
+      @include media-breakpoint-down(lg){
+        display: block;
+      }
+    }
+
+    &_text {
+      display: none;
+    }
+
+    &.active &_text {
+      display: block;
+    }
+
+    &.activeAccordion &_button {
+      background-color: $theme-yellow;
+    }
+
+    &.activeAccordion &_button::before {
+      background: url(../../assets/img/minus.svg) no-repeat center;
+    }
+
+    @include media-breakpoint-down(lg){
+      &.active &_text {
+        display: none;
+      }
+
+      &.activeAccordion &_text {    
+        display: block;
+      }
+    }
+  }
+
+  .splideTabsSlider {
+    @include media-breakpoint-down(lg){
+      display: none;
+    }
+  }
+
+  @include media-breakpoint-down(lg){
+    margin-top: 40px;
+  }
+}

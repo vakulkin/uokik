@@ -1,0 +1,12 @@
+.infoBlock {
+  margin-bottom: 30px;
+  padding: 10px 35px 30px;
+  background: rgba(0, 23, 46, 0.05);
+  background-position: top right;
+  background-repeat: no-repeat;
+  height: 100%;
+
+  @include media-breakpoint-down(lg){
+    background-image: none;
+  }
+}

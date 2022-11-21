@@ -1,0 +1,22 @@
+.imageWithShadow {
+  position: relative;
+
+  img{
+      display: block;
+      position: relative;
+      max-width: calc(100% - 16px);
+      width: 100%;
+      border-radius: $border-custom-radius;
+  }
+
+  &::before{
+      content: '';
+      position: absolute;
+      width: 90%;
+      height: 100%;
+      right: 0;
+      bottom: -16px;
+      background-color: $dark-gray;
+      border-radius: 0px 20px 0px 20px;
+  }
+}

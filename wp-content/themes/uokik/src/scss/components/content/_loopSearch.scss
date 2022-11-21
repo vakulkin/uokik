@@ -1,0 +1,20 @@
+.contentSearch{
+    margin: 0 0 4vh;
+
+    &--title{
+        margin: 0;
+        font-size: $font-size-small-title;
+
+        a{
+            color: $secondary;
+            text-decoration: none;
+        }
+    }
+
+    &__summary{
+        p{
+            margin: 15px 0 0;
+        }
+    }
+
+}
