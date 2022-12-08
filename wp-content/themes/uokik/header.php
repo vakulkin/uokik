@@ -61,7 +61,7 @@
 								array(
 									'theme_location' => 'header',
 									'menu_id' => 'primary-menu',
-									'depth' => 1,
+									'depth' => 2,
 								)
 							);
 							?>
