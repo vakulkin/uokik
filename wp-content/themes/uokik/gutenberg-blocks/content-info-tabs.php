@@ -44,7 +44,7 @@ if ($tabs) { ?>
       <div class="tabsContent__tab<?php echo $active; ?>" data-tab="<?php echo $tab->post_name; ?>">
         <button type="button" class="tabsContent__tab_button"><?php echo $tab->post_title; ?></button>
         <div class="tabsContent__tab_text">
-          <?php echo $tab->post_content; ?>
+          <?php echo do_shortcode("[post id=\"$tab->ID\"]"); ?>
         </div>
       </div>
     <?php $active = '';
